@@ -1,1 +1,1 @@
-### please do not go down this rabbit hole, you will waste your time and become an ergonomics neckbeard
+## I have too much free time and decided to make this stuff
