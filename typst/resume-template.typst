@@ -1,1 +1,54 @@
+#import "@preview/finely-crafted-cv:0.3.0": *
+
+#show: resume.with(
+  name: "Your Name",
+  tagline: "Your professional tagline or summary statement here.",
+  keywords: "keyword1, keyword2, keyword3, keyword4, projects",
+  icon-contact-header: (
+    [link("mailto:your.email@example.com", "your.email@example.com")],
+    [link("tel:+10000000000", "+1-000-000-0000")],
+    [link("https://www.linkedin.com/in/yourprofile/", "linkedin.com/in/yourprofile")],
+    [link("https://github.com/yourusername", "github.com/yourusername")],
+    [link("https://leetcode.com/yourhandle/", "leetcode.com/yourhandle")],
+    [link("https://app.hackthebox.com/profile/yourid", "HackTheBox")],
+  ),
+  thumbnail: image("assets/qr-code-placeholder.svg"),
+)
+
+= Introduction
+
+Brief professional introduction goes here. One or two sentences summarizing your expertise, focus areas, and professional value.
+
+= Experience
+
+#company-heading("Company Name", start: "Start Date", end: "End Date")[
+  #job-heading("Job Title", location: "Location")[
+    - Key responsibility or achievement  
+    - Another highlight or result
+  ]
+]
+
+#company-heading("Company Name", start: "Start Date", end: "End Date")[
+  #job-heading("Job Title", location: "Location")[
+    - Key responsibility or achievement  
+    - Another highlight or result
+  ]
+]
+
+= Technical Skills
+
+- Category: Skill A, Skill B, Skill C  
+- Category: Skill D, Skill E, Skill F  
+- Category: Tool 1, Tool 2, Tool 3  
+
+= Certifications & Education
+
+- **Certifications**  
+  - Certification Name — Year  
+  - Certification Name — Year  
+
+- **Education**  
+  #school-heading("University Name", start: "Start Date", end: "End Date")[
+    #degree-heading("Degree Name / Field of Study")[]
+  ]
 
