@@ -1,4 +1,6 @@
 ## typst configs: 
 
 ## vim: 
-- plugins used
+
+
+# neovim:
