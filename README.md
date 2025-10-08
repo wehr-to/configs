@@ -2,5 +2,4 @@
 
 ## vim: 
 
-
-# neovim:
+## neovim:
