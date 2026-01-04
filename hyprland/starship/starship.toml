@@ -1,0 +1,16 @@
+palette = "catppuccin_mocha"
+
+[palettes.catppuccin_mocha]
+blue = "#89b4fa"
+lavender = "#b4befe"
+pink = "#f5c2e7"
+red = "#f38ba8"
+green = "#a6e3a1"
+yellow = "#f9e2af"
+surface1 = "#45475a"
+surface2 = "#313244"
+text = "#cdd6f4"
+
+[character]
+success_symbol = "[❯](lavender)"
+error_symbol = "[❯](red)"
