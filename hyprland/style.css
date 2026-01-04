@@ -1,0 +1,48 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "FiraCode", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: @on_surface;
+}
+
+tooltip {
+  background: rgba(19, 21, 24, 0.5);
+  border: 1px solid rgba(43, 48, 59, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+/* Pill-shaped workspace buttons matching your status modules */
+#workspaces button {
+    padding: 5px 15px;
+    margin: 7px;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    color: #e8eaed;
+    border: none;
+}
+
+/* Active workspace with your existing accent */
+#workspaces button.focused {
+    background-color: rgba(113, 48, 18, 0.8);
+    color: white;
+    border-radius: 100px;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network { 
+    padding: 5px 15px;
+    margin: 7px;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    color: #e8eaed;
+}
