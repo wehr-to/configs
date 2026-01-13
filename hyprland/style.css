@@ -19,7 +19,6 @@ tooltip label {
   color: white;
 }
 
-/* Pill-shaped workspace buttons matching your status modules */
 #workspaces button {
     padding: 5px 15px;
     margin: 7px;
@@ -29,7 +28,6 @@ tooltip label {
     border: none;
 }
 
-/* Active workspace with your existing accent */
 #workspaces button.focused {
     background-color: rgba(113, 48, 18, 0.8);
     color: white;
